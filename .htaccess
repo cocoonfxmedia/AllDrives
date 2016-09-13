@@ -20,6 +20,97 @@ ExpiresDefault "access 1 month"
 </IfModule>
 ## EXPIRES CACHING ##
 
+# 301 --- https://www.alldrivesandcontrols.co.uk/string-libraries => https://www.alldrivesandcontrols.co.uk
+RewriteRule ^string-libraries$ /? [L,R=301]
+
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=11_3 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=11_3($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_10 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_10($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=3_41 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=3_41($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=3_12 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=3_12($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/7-10-15 => https://www.alldrivesandcontrols.co.uk
+RewriteRule ^7-10-15$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=3_30 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=3_30($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=3_5 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=3_5($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_48 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_48($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_1 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_1($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_18 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_18($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_88 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_88($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_85 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_85($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_36 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_36($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_11 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_11($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=1_17 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=1_17($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_12 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_12($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=11_2 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=11_2($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_30 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_30($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_29 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_29($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_42 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_42($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_49 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_49($|&)
+RewriteRule ^$ /? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/?p=2_43 => https://www.alldrivesandcontrols.co.uk
+RewriteCond %{QUERY_STRING} (^|&)p=2_43($|&)
+RewriteRule ^$ /? [L,R=301]
+
 
 # 301 --- https://www.alldrivesandcontrols.co.uk/v120-22-un2 => https://www.alldrivesandcontrols.co.uk/unitronics
 RewriteRule ^v120-22-un2$ /unitronics? [L,R=301]
