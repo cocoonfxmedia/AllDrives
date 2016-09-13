@@ -3,18 +3,6 @@ RewriteEngine on
 RewriteCond %{HTTPS} !on
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
-# BEGIN WordPress
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
-
-# END WordPress
-
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On
@@ -33,8 +21,191 @@ ExpiresDefault "access 1 month"
 ## EXPIRES CACHING ##
 
 
+# 301 --- https://www.alldrivesandcontrols.co.uk/v120-22-un2 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v120-22-un2$ /unitronics? [L,R=301]
+# 301 --- https://www.alldrivesandcontrols.co.uk/v120-22-r34 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v120-22-r34$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v120-22-t38 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v120-22-t38$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v120-22-r6c => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v120-22-r6c$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v120-22-ra22 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v120-22-ra22$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v120-22-t1 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v120-22-t1$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v120-22-r2c => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v120-22-r2c$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v120-22-ua2 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v120-22-ua2$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v120-22-t2c => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v120-22-t2c$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v120-22-r1 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v120-22-r1$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/V100-COM_S_INSTAL-GUIDE_02-15 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^V100-COM_S_INSTAL-GUIDE_02-15$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/jz10-11-pt15 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^jz10-11-pt15$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/jz10-11-un20 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^jz10-11-un20$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/jz10-11-ua24 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^jz10-11-ua24$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/jz10-11-t40 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^jz10-11-t40$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/jz10-11-r31 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^jz10-11-r31$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/jz10-11-t17 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^jz10-11-t17$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/jz10-11-r16 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^jz10-11-r16$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/jz10-11-t10 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^jz10-11-t10$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/jz10-11-r10 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^jz10-11-r10$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/m91-2-un2 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^m91-2-un2$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/m91-2-ua2 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^m91-2-ua2$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/m91-2-t38 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^m91-2-t38$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/m91-2-t2c => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^m91-2-t2c$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/m91-2-t1 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^m91-2-t1$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/m91-2-ra22 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^m91-2-ra22$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/m91-2-r6c => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^m91-2-r6c$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/m91-2-r34 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^m91-2-r34$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/m91-2-r2c => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^m91-2-r2c$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/m91-2-r1 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^m91-2-r1$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/m90-ta2-can => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^m90-ta2-can$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/m90-t => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^m90-t$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/m90-19-b1a => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^m90-19-b1a$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v350-35-tr20 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v350-35-tr20$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v350-35-tra22 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v350-35-tra22$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v350-35-b1 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v350-35-b1$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v350-35-ta24 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v350-35-ta24$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v350-35-t38 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v350-35-t38$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v350-35-t2 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v350-35-t2$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v350-35-tr6 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v350-35-tr6$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v350-35-r34 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v350-35-r34$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v350-33-ra22 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v350-33-ra22$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v350-35-r2 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v350-35-r2$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v130-33-tr6-v130-j-tr6 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v130-33-tr6-v130-j-tr6$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v130-33-tra22-v130-j-tra22 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v130-33-tra22-v130-j-tra22$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v130-33-tr20-v130-j-tr20 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v130-33-tr20-v130-j-tr20$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v130-33-tr34-v130-j-tr34 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v130-33-tr34-v130-j-tr34$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v130-33-ta24 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v130-33-ta24$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v130-33-t38 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v130-33-t38$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v130-33-t2 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v130-33-t2$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v130-33-r34 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v130-33-r34$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v130-33-r6 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v130-33-r6$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v130-33-b1 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v130-33-b1$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v130-33-ra22 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v130-33-ra22$ /unitronics? [L,R=301]
+
+# 301 --- https://www.alldrivesandcontrols.co.uk/v130-33-r2 => https://www.alldrivesandcontrols.co.uk/unitronics
+RewriteRule ^v130-33-r2$ /unitronics? [L,R=301]
+
+
 
 #RewriteRule ^web_documents(.*)$ /$1 [R=301,NC,L]
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+
+
+
+
+
 
 
 
